@@ -1,0 +1,210 @@
+html{
+	background-color: #bcbbbb;
+}
+body{
+	max-width: 500px;
+	margin: auto;
+	background-color: #bcbbbb;
+}
+
+
+.blue_note{
+     background-color:#e6effd;
+     border-left: 6px solid #2097ef;
+}
+.page_body{
+	width:auto;
+	background:#eeeeee;
+	border:2px solid #eeeeee;
+	-webkit-box-shadow:0 4px 6px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow:0 4px 6px rgba(0,0,0,0.3);
+	box-shadow:0 4px 6px rgba(0,0,0,0.3);
+}
+.page_body textarea{
+	width:calc(99% - 2px);
+	padding:2px;
+	border:2px solid #ccc;
+	border-radius: 0px 0px 10px 10px;
+	resize:none;
+	text-align:left;
+	text-decoration:none;
+}
+.page_body input[type='password']{
+	width:calc(99% - 30px);
+	padding:2px;
+	border-radius: 10px 10px 0px 0px;
+	border:2px solid #ccc;
+	resize:none;
+	text-align:left;
+	text-decoration:none;
+	height: 30px;
+	font-size: 20px;
+	font-weight: bolder;
+    background-image: url('images/key3.png');
+    background-position: 5px 5px; 
+    background-repeat: no-repeat;
+	padding-left: 30px
+}
+.page_body .button{
+	display: inline-block;
+	text-align: center;
+	background:#45668a;
+	border: none;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:5px;
+	padding-right:5px;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+}
+
+.page_body .result_case{
+	background:#45668a;
+	padding:2px;
+	border-radius: 10px 10px 10px 10px;
+	resize:none;
+	text-align:left;
+	text-decoration:none;
+	color: white;
+	display: none;
+}
+.page_body .result_head{
+	background:#45668a;
+	padding:2px;
+	border-radius: 10px 10px 0px 0px;
+	height: 30px;
+	line-height: 30px;
+	resize:none;
+	text-align:left;
+	text-decoration:none;
+	color: white;
+}
+.page_body .result{
+	background:#9aabbd;
+	padding:2px;
+	max-height: 150px;
+	overflow-x: auto;
+	resize:none;
+	text-align:left;
+	text-decoration:none;
+	color: white;
+}
+
+.page_body .result_foot{
+	background:#45668a;
+	padding:2px;
+	border-radius: 0px 0px 10px 10px;
+	height: 30px;
+	line-height: 30px;
+	resize:none;
+	text-align:left;
+	text-decoration:none;
+	color: white;
+}
+.page_body .result_foot > span{
+	font-weight: bolder;
+	float: left;
+}
+.page_body .result_foot  button{
+	font-weight: bolder;
+	float: right;
+	background:#9aabbd;
+	border:1px solid #3b5998;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#fff;
+	border-radius: 5px;
+	width: ;
+	height: ;
+}
+.page_body .result_foot  form{
+	float: right;
+}
+
+
+.page_body .menu_card{
+	display: inline-block;
+	float: left;
+	text-align: center;
+	background:#fff;
+	border: none;
+	padding : 2px;
+	margin : 5px;
+	width: calc(50% - 14px);
+	-webkit-box-shadow:0 4px 6px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow:0 4px 6px rgba(0,0,0,0.3);
+	box-shadow:0 4px 6px rgba(0,0,0,0.3);
+}
+.page_body .content_case{
+	display: block;
+	text-align: center;
+	background: #fff;
+	border: none;
+	padding : 2px;
+	margin : 5px;
+	-webkit-box-shadow:0 4px 6px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow:0 4px 6px rgba(0,0,0,0.3);
+	box-shadow:0 4px 6px rgba(0,0,0,0.3);
+}
+
+.deem{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 10;
+	display: none;
+}
+.loader {
+	position: absolute;
+	top: 35px;
+	left: 10px;
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #45668a; /* Blue */
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    display: none;
+    -webkit-animation: spin 0.5s linear infinite;
+    -ms-animation: spin 0.5s linear infinite;
+    -moz-animation: spin 0.5s linear infinite;
+    animation: spin 0.5s linear infinite;
+	z-index: 11;
+}
+
+
+@-webkit-keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+
+@-ms-keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+
+@-moz-keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.key_icon{
+	display: inline-block;
+	position: relative;
+}
